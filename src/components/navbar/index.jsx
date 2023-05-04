@@ -12,7 +12,7 @@ export const Navbar = () => {
   }
 
   return (
-    <div className="flex justify-between items-center w-full h-14    px-4 py-1 sticky top-0 bg-cyan-950 ">
+    <div className="flex justify-between items-center w-full h-14  z-50  px-4 py-1 sticky top-0 bg-transparent ">
       <div className="text-white font-bold ">Logo</div>
         {
         isOpen === false ?
