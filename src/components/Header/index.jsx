@@ -1,5 +1,4 @@
 import React from 'react'
-import luxyMin from 'luxy.js'
 
 export const Header = () => {
   return (

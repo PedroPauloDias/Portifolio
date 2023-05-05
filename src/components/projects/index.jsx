@@ -1,5 +1,4 @@
 import React from 'react'
-import { MySlider } from '../slider'
 
 export const Projects = () => {
   return (
