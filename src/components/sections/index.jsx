@@ -1,5 +1,8 @@
-import React, {useEffect, useState} from 'react'
+import React, {useEffect, useState, Component} from 'react'
 import { Info } from './info';
+
+
+
 
 export const Sections = () => {
   const [data, setData] = useState([]);
@@ -13,9 +16,14 @@ export const Sections = () => {
     fetchData();
   }, []);
 
+
+
+  
+
   return (
-    <div className=' mt-80  text-white p-2 '>
+    <div className=' mt-80  text-white p-2 h-full bg-teal-950'>
       <h1>Meus Dados:</h1>
+
       <ul>
         {data.map((item) => (
           <li key={item.id}>
@@ -24,15 +32,15 @@ export const Sections = () => {
              imagem={item.imagem}
              alt={item.alt}
              descricao={item.descricao}
-              />           
+             />           
           </li>
         ))}
       </ul>
+     
     </div>
   );
 }
   
-  
-  
+
   
 
