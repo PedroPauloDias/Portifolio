@@ -2,7 +2,7 @@ export async function GET(request) {
   const data = [
     {
       id: 1,
-      texto: "Projeto",
+      texto: "Projeto-1",
       imagem: "/projeto.jpeg",
       alt: "lorem jdiasj",
       descricao:
@@ -10,7 +10,7 @@ export async function GET(request) {
     },
     {
       id: 2,
-      texto: "Conhecimentos",
+      texto: "Projeto-2",
       imagem: "/programacao.webp",
       alt: "lorem jdiasj",
       descricao:
@@ -18,7 +18,7 @@ export async function GET(request) {
     },
     {
       id: 3,
-      texto: "Contato",
+      texto: "Projeto-3",
       imagem: "/projeto.jpeg",
       alt: "lorem jdiasj",
       descricao:
