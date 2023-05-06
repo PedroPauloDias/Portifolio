@@ -5,7 +5,7 @@ import Image from 'next/image'
 export const CardProject = ({ imagem, alt, title, descricao }) => {
   return (
     <div className='  flex min-h-full items-center justify-center bg-neutral-800'>
-      <div className=' grid grid-cols-1 md:grid-cols-2 lg-grid-cols-3 gap-5'>
+      <div className=' gap-5'>
         <div className='group relative items-center justify-center overflow-hidden cursor-pointer hover:shadow-xl hover:shadow-black/30 transition-shadow'>
           <div className='h-96 w-72'>
             <Image src={imagem} alt={alt} width={300} height={350} className=' h-full w-full object-cover border-neutral-800 group-hover:rotate-3 group-hover:scale-125 transition-transform duration-500 ' />
