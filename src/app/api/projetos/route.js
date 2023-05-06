@@ -2,11 +2,11 @@ export async function GET(request) {
   const data = [
     {
       id: 1,
-      texto: "PROJETO ",
+      texto: "Projeto",
       imagem: "/projeto.jpeg",
       alt: "lorem jdiasj",
       descricao:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ipsa doloremque excepturi ad eos aliquam delectus quam necessitatibus sapiente error possimus",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export async function GET(request) {
       imagem: "/programacao.webp",
       alt: "lorem jdiasj",
       descricao:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ipsa doloremque excepturi ad eos aliquam delectus quam necessitatibus sapiente error possimus",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export async function GET(request) {
       imagem: "/projeto.jpeg",
       alt: "lorem jdiasj",
       descricao:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ipsa doloremque excepturi ad eos aliquam delectus quam necessitatibus sapiente error possimus",
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ipsa doloremque excepturi ",
     },
   ];
 

@@ -1,13 +1,13 @@
 
-import React, { useState , useEffect } from "react";
+import React, { useState, useEffect, Children } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import { Info } from "../sections/info";
 
-export const MySlider = () => {
-  
+export const MySlider = ({ children }) => {
+
   const [projetos, setProjetos] = useState([]);
 
   useEffect(() => {
@@ -60,31 +60,14 @@ export const MySlider = () => {
     ]
   };
   return (
-    <div >
-      <h1>Meus Projetos :</h1>
-      <div className="p-4">
-        
 
-<ul  className='mx-2' >
-  <Slider {...settings}>
-  {projetos.map((item) => (
-    
-    <li key={item.id} className=' p-4'>
-      <div   className=' border-4 border-slate-950 '>
 
-      <Info 
-       title={item.texto}
-       imagem={item.imagem}
-       alt={item.alt}
-       descricao={item.descricao}
-       />           
-       </div>
-    </li>
-  ))}
-  </Slider>
-</ul>
-  </div>
-  </div>
+    <div className="p-4  ">      
+        <Slider {...settings}>
+          {Children}
+        </Slider>      
+    </div>
+
 
   );
 }
