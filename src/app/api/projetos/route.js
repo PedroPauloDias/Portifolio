@@ -22,7 +22,7 @@ export async function GET(request) {
       imagem: "/projeto.jpeg",
       alt: "lorem jdiasj",
       descricao:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ipsa doloremque excepturi ",
+             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, consequatur suscipit. Ab, molestias, mollitia saepe amet, porro molestiae ",
     },
   ];
 
