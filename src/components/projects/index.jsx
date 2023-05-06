@@ -16,13 +16,13 @@ export const Projects = () => {
 
 
   return (
-    <div>
-      <h1 className='text-4xl' >Meus Projetos :</h1>
-      <div className=' w-full'>
-        <ul className='mx-2' >
+    <div className='bg-neutral-800'>
+      <h1 className='text-4xl text-white text-center pt-3 ' >Meus Projetos </h1>
+      <div className=' w-full  pt-4'>
+        <ul className='m-2 ' >
           {projetos.map((item) => (
             <li key={item.id} className=' p-4 list-none'>
-              <div className=' border-4 border-slate-950 '>
+              <div className=' '>
                 <CardProject
                   title={item.texto}
                   imagem={item.imagem}
